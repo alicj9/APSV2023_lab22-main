@@ -66,7 +66,7 @@ jobs:
 
           registry: ghcr.io
 
-          username: "yourGitHubUsername"
+          username: "alicj9"
 
           password: ${{ secrets.PAT }}
 
@@ -82,5 +82,5 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/yourGitHubUsername/tos:latest
+          tags: ghcr.io/alicj9/tos:latest
 
